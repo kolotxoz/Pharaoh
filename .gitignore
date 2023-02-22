@@ -57,6 +57,8 @@ libs/
 libs
 lib
 lib/
+download
+download/
 
 # Gradle
 .idea/**/gradle.xml

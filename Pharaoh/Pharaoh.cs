@@ -37,7 +37,7 @@ public class Pharaoh : BaseUnityPlugin
         {
             height = Display.main.systemHeight,
             width = Display.main.systemWidth,
-           // refreshRate = 120
+            refreshRate = Screen.resolutions.Max(a => a.refreshRate)
         };
         __result = __result.Prepend(res);
     }
