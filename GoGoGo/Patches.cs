@@ -91,6 +91,7 @@ public partial class Plugin
                 yield return method.MakeGenericMethod(typeof(Tween));
                 yield return method.MakeGenericMethod(typeof(Tweener));
                 yield return method.MakeGenericMethod(typeof(TweenerCore<Vector3, Vector3, VectorOptions>));
+                yield return method.MakeGenericMethod(typeof(TweenerCore<Color, Color, ColorOptions>));
                 yield return method.MakeGenericMethod(typeof(TweenerCore<Vector4, Vector4, VectorOptions>));
                 yield return method.MakeGenericMethod(typeof(TweenerCore<Quaternion, Vector3, QuaternionOptions>));
             }

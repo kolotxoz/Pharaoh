@@ -11,8 +11,8 @@
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>preview-all</AnalysisLevel>
-    <PackageId>GoGoGo</PackageId>
-    <Product>GoGoGo</Product>
+    <PackageId>QuickStart</PackageId>
+    <Product>QuickStart</Product>
     <PackageProjectUrl>https://github.com/p1xel8ted/Pharaoh</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/p1xel8ted/Pharaoh</RepositoryUrl>
