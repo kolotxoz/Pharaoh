@@ -7,11 +7,11 @@ using HarmonyLib;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Pharaoh;
+namespace Ultrawide;
 
-[BepInPlugin("p1xel8ted.Pharaoh.Pharaoh", "Pharaoh", "0.1.0")]
+[BepInPlugin("p1xel8ted.pharaoh.ultrawide", "Ultrawide", "0.1.1")]
 [HarmonyPatch]
-public class Pharaoh : BaseUnityPlugin
+public class Ultrawide : BaseUnityPlugin
 {
     private static Harmony _hi;
     private static ManualLogSource _log;
@@ -21,7 +21,7 @@ public class Pharaoh : BaseUnityPlugin
         _hi = Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
         _log = new ManualLogSource("Log");
         BepInEx.Logging.Logger.Sources.Add(_log);
-        _log.LogInfo($"Plugin Pharaoh is loaded!");
+        _log.LogWarning($"Plugin Ultrawide is loaded!");
     }
 
     public void OnDestroy()
